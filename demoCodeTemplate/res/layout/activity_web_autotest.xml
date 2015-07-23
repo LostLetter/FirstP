@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/webautotest"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="春天来了" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/discrib_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:clickable="true"
+                android:text="@string/web_autotest_discrib_str" />
+
+            <Button
+                android:id="@+id/web_auto_test_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="开始" />
+
+            <Button
+                android:id="@+id/web_auto_test_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="停止"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dip" />
+
+            <Button
+                android:id="@+id/web_auto_test_log"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="日志" />
+
+            <Button
+                android:id="@+id/web_auto_test_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
