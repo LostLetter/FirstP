@@ -21,6 +21,8 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 
+import com.tt.ui.test.R;
+
 
 public class DeviceListActivity extends Activity  {
 	// Debugging

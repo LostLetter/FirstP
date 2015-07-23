@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.PopupWindow;
 
+import com.tt.ui.test.R;
+
 public class ShowPopupWindow extends Activity implements View.OnClickListener {
 
 	View view;
